@@ -1,0 +1,25 @@
+database:
+  development: 
+    adapter: postgresql
+    encoding: UTF8
+    database: storelocator_development
+    pool: 5
+    username: postgres
+    password:
+    
+  production:
+    adapter: postgresql
+    encoding: UTF8
+    database: storelocator_production
+    pool: 5
+    username: postgres
+    password:
+  
+  test:
+    adapter: postgresql
+    encoding: UTF8
+    database: storelocator_test
+    pool: 5
+    username: postgres
+    password:
+
